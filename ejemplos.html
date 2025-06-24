@@ -1,0 +1,27 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<form onsubmit="return validarFormulario()">
+    <input type="text" id="usuario" required>
+    <button type="submit">Enviar</button>
+</form>
+
+<script>
+function validarFormulario() {
+    let usuario = document.getElementById("usuario").value;
+    if (usuario === "") {
+        alert("El campo usuario no puede estar vacío");
+        return false;
+    }
+    return true;
+}
+</script>
+    
+</body>
+</html>

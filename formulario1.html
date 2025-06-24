@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Formulario de Registro</title>
+  <link rel="stylesheet" href="festilos.css">
+</head>
+<body>
+  <header>
+  <h1>registar el correo electrònico</h1>
+  </header>
+
+  <form action="formulario1.html" method="post">
+    <label for="nombre">Nombre completo:</label><br>
+    <input type="text" id="nombre" name="nombre" required><br><br>
+
+    <label for="email">Correo electrónico:</label><br>
+    <input type="email" id="email" name="email" required><br><br>
+
+    <label for="edad">Edad:</label><br>
+    <input type="number" id="edad" name="edad" min="1" max="100"><br><br>
+
+    <label for="genero">Género:</label><br>
+    <input type="radio" id="masculino" name="genero" value="masculino">
+    <label for="masculino">Masculino</label><br>
+    <input type="radio" id="femenino" name="genero" value="femenino">
+    <label for="femenino">Femenino</label><br><br>
+
+    <label for="curso">Curso de interés:</label><br>
+    <select id="curso" name="curso">
+      <option value="ofimatica">Ofimática</option>
+      <option value="programacion">Programación</option>
+      <option value="redes">Redes</option>
+    </select><br><br>
+
+    <label for="comentarios">Comentarios adicionales:</label><br>
+    <textarea id="comentarios" name="comentarios" rows="4" cols="40"></textarea><br><br>
+
+    <input type="submit" value="Enviar">
+    <input type="reset" value="Limpiar">
+  </form>
+
+</body>
+</html>

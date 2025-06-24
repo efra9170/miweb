@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Selector de etiqueta */
+p {
+    font-family: Arial, sans-serif;
+    color: #333;
+    line-height: 1.5;
+}
+
+/* Selector de clase */
+.intro {
+    font-size: 18px;
+    color: darkblue;
+}
+
+/* Selector de ID */
+#titulo-principal {
+    background-color: navy;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 15px;
+}
+
+/* Clase para caja con borde y fondo */
+.caja {
+    border: 2px solid #666;
+    background-color: #f9f9f9;
+    padding: 15px;
+    margin: 10px;
+}
+
+/* Clase para pie de página */
+.pie {
+    text-align: center;
+    font-size: 12px;
+    color: gray;
+    margin-top: 30px;
+}
